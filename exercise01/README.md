@@ -13,7 +13,7 @@ docker run -v "$PWD/index.html:/var/www/index.html" -d -P nginx:1.25.1
 ```
 
 
-## Example
+## Ejemplo
 
 ```sh
 $ docker run -v "$PWD/index.html:/usr/share/nginx/html/index.html:ro" -d -P nginx:1.25.1-alpine
