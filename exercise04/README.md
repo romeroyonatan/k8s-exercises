@@ -14,6 +14,7 @@ Entregar el link a la carpeta del repositorio github.
 ```sh
 docker build . -t romeroyonatan/passwordapi:0.1.0
 docker run -P romeroyonatan/passwordapi:0.1.0
+docker push romeroyonatan/passwordapi:0.1.0
 ```
 
 # Ejemplo
