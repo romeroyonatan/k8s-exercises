@@ -9,7 +9,7 @@
 Pista: utilizar comandos tag, login y push
 
 
-## Resolución
+## Solución
 
 ```sh
 docker login

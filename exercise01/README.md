@@ -6,7 +6,7 @@ Ten presente que no hay una única forma de resolver este ejercicio.
 
 Pista: puede que tengas que utilizar docker run con la opción -v
 
-## Resolución
+## Solución
 
 ```sh
 docker run -v "$PWD/index.html:/var/www/index.html" -d -P nginx:1.25.1
