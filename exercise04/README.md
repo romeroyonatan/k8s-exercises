@@ -102,6 +102,17 @@ Password API is now running
 ^C2023-08-05 07:27:39.677  INFO 1 --- [       Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@647e447: startup date [Sat Aug 05 07:26:35 UTC 2023]; root of context hierarchy
 2023-08-05 07:27:39.685  INFO 1 --- [       Thread-4] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
 2023-08-05 07:27:39.687  INFO 1 --- [       Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+$ docker push romeroyonatan/passwordapi:0.1.0
+Getting image source signatures
+Copying blob 5d4a7942690f skipped: already exists  
+Copying blob a4cd7c9e0aeb skipped: already exists  
+Copying blob 6bceb3e7ffa5 skipped: already exists  
+Copying blob 455055797990 skipped: already exists  
+Copying blob b6344cfabd66 skipped: already exists  
+Copying blob bc3d70fa9622 skipped: already exists  
+Copying config fc8bec2dc9 done  
+Writing manifest to image destination
+Storing signatures
 ```
 
 # Link to image
