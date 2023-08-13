@@ -17,9 +17,11 @@ Escribe tus respuestas ejercicio07/README.md en tu repositorio github y entrega 
 ## Resolución
 
 > ¿Cuántos contenedores se están ejecutando? (pueden verlo en el archivo docker-compose.yml y también ejecutando docker ps)
+
 Se están ejecutando dos contenedores:
 1. Base de datos PostgreSQL
 2. Applicacion web Ruby
+
 ````
 $ docker ps
 
@@ -29,10 +31,12 @@ caf3b60551fb   postgres:14.4-alpine             "docker-entrypoint.s…"   51 se
 ````
 
 > ¿Cuales son las imágenes en las que están basados los mencionados contenedores?
+
 1. Base de datos: `postgres:14.4-alpine`
 2. Aplicación web: `nicopaez/jobvacancy-ruby:1.3.0`
 
 > ¿Puedes leer el docker-compose.yml y describir lo que hace cada una de sus lineas?
+
 ```yaml
 version: '2'  # especifica versión de la especificación de docker compose. 2 en este caso
 services: # declara los servicios de los cuales se compone la aplicación
@@ -55,6 +59,7 @@ services: # declara los servicios de los cuales se compone la aplicación
 ```
 
 > Dado que cada contenedor corre en forma aislada ¿Cómo es posible que esos contenedores se vean entre sí?
+
 Se pueden ver porque docker compose los ejecuta en una misma red y además el compose declara un link entre ambos contenedores
 
 ```sh
