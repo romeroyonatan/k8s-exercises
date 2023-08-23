@@ -13,3 +13,4 @@ Docker and Kubernetes exercises
 - [Ejercicio 10: CMD vs ENTRYPOINT](./exercise10/)
 - [Ejercicio 11: Telegram Bot](./exercise11/)
 - [Ejercicio 12: correr PasswordAPI en Kubernetes](./exercise12/)
+- [Ejercicio 13: JobVacancy en k8s](./exercise13/)
