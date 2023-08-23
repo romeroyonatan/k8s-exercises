@@ -11,4 +11,5 @@ Docker and Kubernetes exercises
 - [Ejercicio 8: Creación de cluster balanceado](./exercise08/)
 - [Ejercicio 9: compose v2](./exercise09/)
 - [Ejercicio 10: CMD vs ENTRYPOINT](./exercise10/)
-- [Ejercicio 11: Ejercicio 11: Telegram Bot](./exercise11/)
+- [Ejercicio 11: Telegram Bot](./exercise11/)
+- [Ejercicio 12: correr PasswordAPI en Kubernetes](./exercise12/)
