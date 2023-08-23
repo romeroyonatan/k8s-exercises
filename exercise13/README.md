@@ -26,9 +26,9 @@ La aplicación se puede acceder a través de [https://jobvacancy-romeroyonatan.c
     service/jobvacancy created
     ```
 1. Después de unos segundos los pods están listos. Filtré el output con `-l app=jobvacancy` para seleccionar sólo los pods de jobvacancy y no los de pingapp que también están corriendo en el mismo namespace  
-```sh
-$ kubectl get pods -l app=jobvacancy
-NAME                             READY   STATUS    RESTARTS   AGE
-jobvacancy-77686c75b4-p7hsh      1/1     Running   0          28s
-jobvacancy-db-7bb65fb6d9-v2twg   1/1     Running   0          29s
-```
+    ```sh
+    $ kubectl get pods -l app=jobvacancy
+    NAME                             READY   STATUS    RESTARTS   AGE
+    jobvacancy-77686c75b4-p7hsh      1/1     Running   0          28s
+    jobvacancy-db-7bb65fb6d9-v2twg   1/1     Running   0          29s
+    ```
