@@ -16,15 +16,15 @@ La aplicación se puede acceder a través de [https://jobvacancy-romeroyonatan.c
 1. Tuve que crear un servicio para la web app y agregar un puerto en el deployment
 1. Cree un deployment y un servicio para la base de datos. Decidí usar el mismo secret que la web.
 1. Primero creé los recursos con `kubectl apply -f '*.yaml'`  
-```sh
-$ kubectl apply -f '*.yaml'
-configmap/jobvacancyconfig created
-deployment.apps/jobvacancy-db created
-service/postgres created
-secret/jobvacancysecret created
-deployment.apps/jobvacancy created
-service/jobvacancy created
-```
+    ```sh
+    $ kubectl apply -f '*.yaml'
+    configmap/jobvacancyconfig created
+    deployment.apps/jobvacancy-db created
+    service/postgres created
+    secret/jobvacancysecret created
+    deployment.apps/jobvacancy created
+    service/jobvacancy created
+    ```
 1. Después de unos segundos los pods están listos. Filtré el output con `-l app=jobvacancy` para seleccionar sólo los pods de jobvacancy y no los de pingapp que también están corriendo en el mismo namespace  
 ```sh
 $ kubectl get pods -l app=jobvacancy
